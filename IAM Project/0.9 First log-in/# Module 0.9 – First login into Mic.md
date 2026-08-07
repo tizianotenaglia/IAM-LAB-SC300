@@ -12,10 +12,10 @@ The Microsoft sign-in portal generated a two-digit code (58) that had to be ente
 Microsoft Authenticator app on my paired smartphone to approve the request, confirming the login 
 was initiated by the legitimate account owner (tizianotenaglia@grapetech031.onmicrosoft.com).
 
-![MFA approval - desktop prompt](mfa-approval-desktop.png)
+![MFA approval - desktop prompt](imgs/mfa-approval-desktop.png)
 *Desktop sign-in prompt showing the number matching code to approve.*
 
-![MFA approval - phone confirmation](mfa-approval-phone.png)
+![MFA approval - phone confirmation](imgs/mfa-approval-phone.png)
 *Microsoft Authenticator app on my phone, where the same code is entered to confirm the request.*
 
 ## Entra admin center overview
@@ -34,5 +34,5 @@ Other details visible on this dashboard:
 - Microsoft Entra Connect: Disabled (hybrid sync not yet configured)
 - No high-risk user detections found
 
-![Entra admin center - Global Administrator role](entra-dashboard-global-admin.png)
+![Entra admin center - Global Administrator role](imgs/entra-dashboard-global-admin.png)
 *Entra Overview dashboard confirming Global Administrator role assignment for tizianotenaglia@grapetech031.onmicrosoft.com.*
