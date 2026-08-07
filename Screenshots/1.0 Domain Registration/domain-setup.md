@@ -7,8 +7,7 @@ replacing the default .onmicrosoft.com domain for the GrapeTech tenant.
 
 ## Steps
 
-1. Purchased grapetech.online via Namecheap, with Domain Privacy enabled (free) and auto-renew 
-   disabled to avoid unwanted charges after year one.
+1. I Purchased grapetech.online via Namecheap.
 2. In Microsoft Entra admin center → Identity → Settings → Domain names, added grapetech.online 
    as a custom domain.
 3. Entra generated a TXT record to prove domain ownership:
@@ -21,8 +20,7 @@ replacing the default .onmicrosoft.com domain for the GrapeTech tenant.
 ## Why this matters
 
 A verified custom domain allows creating tenant users with a professional identity 
-(e.g. `user@grapetech.online`) instead of the default `.onmicrosoft.com` suffix, and is a 
-required step in several SC-300 domain/identity management scenarios.
+(e.g. `user@grapetech.online`) instead of the default `.onmicrosoft.com` suffix.
 
 ## Screenshots
 
