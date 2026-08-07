@@ -26,10 +26,10 @@ required step in several SC-300 domain/identity management scenarios.
 
 ## Screenshots
 
-![Domain added in Entra](verifica registered domain.png)
+![Domain added in Entra](verifica-registered-domain.png)
 *Custom domain grapetech.online added to the Entra tenant, showing the required TXT record.*
 
-![TXT record configured in Namecheap](verifica pt2.png)
+![TXT record configured in Namecheap](verifica-pt2.png)
 *TXT record created in Namecheap's Advanced DNS panel matching Entra's requirements.*
 
 ![Domain successfully verified](verificato.png)
