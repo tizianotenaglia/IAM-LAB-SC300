@@ -31,3 +31,25 @@ each user is required to change on first sign-in.*
 
 ![Populated tenant - All users list](imgs/populated.png)
 *All users view in Entra confirming successful creation: 16 users found, matching the 15 new accounts plus the original admin account.*
+
+## Why include a disabled account
+
+One of the 15 users, Brenda Merenda, was deliberately created with **Account enabled = false** 
+(Account status: Disabled), instead of matching the rest of the batch.
+
+Including at least one disabled account in the population is useful for a realistic lab environment 
+for a few reasons:
+
+- It simulates a common real-world scenario: an offboarded or on-leave employee, whose account is 
+  disabled rather than deleted, preserving audit history, group memberships, and licensing 
+  assignments for compliance purposes.
+- It allows testing that Conditional Access and sign-in flows correctly block authentication for 
+  disabled accounts, even if the account otherwise has valid credentials.
+- It provides a concrete example for Access Reviews and stale-account governance scenarios later in 
+  the project, where reviewers need to identify and act on accounts that should no longer have 
+  active access.
+- It confirms that a disabled account still shows up in reporting (Users list, Sign-in logs, Bulk 
+  operation results) but cannot authenticate — an important distinction from account deletion.
+
+![Disabled account status](imgs/disabled.png)
+*Brenda Merenda's user profile in Entra, showing Account status: Disabled under "My Feed", confirming the account was created disabled as intended.*
