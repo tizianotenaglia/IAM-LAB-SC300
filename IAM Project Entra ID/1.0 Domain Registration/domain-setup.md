@@ -70,5 +70,5 @@ own admin account's UPN suffix from the default onmicrosoft.com domain to the ne
    instead of GrapeTech031.onmicrosoft.com.
 4. Saved the change — my sign-in identity is now `TizianoTenaglia@grapetech.online`.
 
-![Updating the User Principal Name suffix](imgs/update-userP.png)
+![Updating the User Principal Name suffix](imgs/update-user.png)
 *Editing the admin account's UPN, switching the domain suffix from onmicrosoft.com to grapetech.online.*
