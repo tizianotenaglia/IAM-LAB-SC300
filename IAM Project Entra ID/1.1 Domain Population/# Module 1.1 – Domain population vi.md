@@ -24,7 +24,7 @@ Conditional Access, PIM, and Access Review scenarios later in the project.
 ![Bulk create panel in Entra](imgs/bulk-invite.png)
 *Bulk create users panel in Entra admin center, showing the 3-step process: download template, edit CSV, upload file.*
 
-![Completed CSV file (passwords redacted)](imgs/bulkCVS.png)
+![Completed CSV file (passwords redacted)](imgs/bulk.png)
 *Final CSV file with 15 users across HR, Operations, IT, Finance, Sales and generic Employee roles. 
 Passwords shown as REDACTED here for security — the real file used a shared initial password that 
 each user is required to change on first sign-in.*
