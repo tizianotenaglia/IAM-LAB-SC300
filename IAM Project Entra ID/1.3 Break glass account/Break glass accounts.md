@@ -9,7 +9,7 @@ Microsoft's official guidance for emergency access account management.
 
 ## Screenshot
 
-![Break glass account creation](imgs/breakglass-account-1.png)
+![Break glass account creation](imgs/breakglass.png)
 *First emergency access account created as a cloud-only Member on the .onmicrosoft.com domain, with Global Administrator role assigned at creation.*
 
 A single break glass account is still a single point of failure: if its password were lost, its MFA 
