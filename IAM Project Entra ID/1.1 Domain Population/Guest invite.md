@@ -1,3 +1,19 @@
+
+Why the guest invite
+
+Beyond the internal Member users created via Bulk create, testing the B2B guest invitation flow was 
+important to cover a scenario: managing external identities. Real organizations 
+routinely need to grant limited access to people who don't work for them directly — contractors, 
+partners, vendors, auditors — without creating full internal accounts, passwords, or licenses for them.
+
+Inviting a guest (iosonoio, Contractor at Babudoia corporate) let me demonstrate that external users 
+authenticate with their own existing identity rather than tenant-issued credentials, and that Entra 
+automatically distinguishes them as User type: Guest, Creation type: Invitation — separate from 
+Members in every list, policy target, and access review. This distinction matters for later modules: 
+Conditional Access policies, access reviews, and entitlement management often need different rules 
+for guests than for employees, and this test confirmed that the guest object model behaves exactly as 
+expected before building those policies on top of it.
+
 ## Screenshots
 
 ![Invite external user - Review + invite](imgs/Guest.png)
