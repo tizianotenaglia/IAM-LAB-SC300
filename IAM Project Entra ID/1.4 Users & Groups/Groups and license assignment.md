@@ -76,10 +76,12 @@ level of access:
 - **SG-HR Role assigned** (Evelina Limberghina, Leonie Pool) → assigned the **User Administrator** 
   role, matching the HR team's real-world need to manage user onboarding/offboarding and create new 
   users autonomously.
+
+![Role assigned HR group](imgs/role-ass.png)
+
 - **SG-IT Helpdesk** (Ottavio Fottini, Sofia Marchetti) → assigned the **Helpdesk Administrator** 
   role, matching Ottavio's IT support role and simulating a small helpdesk team.
 
-![Role-assignable group with directory role assignment](imgs/lic-ass.png)
 *Role-assignable group creation for SG-HR Role assigned, showing "Microsoft Entra roles can be assigned to the group" set to Yes, Membership type locked to Assigned, and the User Administrator role selected from the Directory roles picker.*
 
 ## Assigning P2 licenses through groups
@@ -96,6 +98,8 @@ licensing** from the Microsoft 365 admin center:
 Group-based licensing means every current and future member of a licensed group automatically 
 receives the license, and it's removed automatically if they leave the group — no manual per-user 
 license management required.
+
+![Role-assignable group with directory role assignment](imgs/lic-ass.png)
 
 Note: license assignment via groups isn't instant — Microsoft processes it in the background, so the 
 "assigned" count on the Licenses page can take several minutes to fully update after assigning a 
