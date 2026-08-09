@@ -1,6 +1,6 @@
 ## Screenshots
 
-![Invite external user - Review + invite](imgs/guest.png)
+![Invite external user - Review + invite](imgs/Guest.png)
 *Review + invite screen showing all the details entered for the invitation: email, display name, custom message, first/last name, job title, and company name.*
 
 ![Invitation email received](imgs/guest-email.png)
