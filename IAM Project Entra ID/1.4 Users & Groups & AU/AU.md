@@ -36,11 +36,11 @@ AU rather than relying only on the SG-HR group.
 
 ## Screenshots
 
-![Administrative unit creation with scoped role assignment](a.png)
+![Administrative unit creation with scoped role assignment](imgs/a.png)
 *Creating AU-HR, with the User Administrator role assigned directly to Evelina Limberghina and Leonie Pool as part of the creation flow.*
 
-![Evelina and Leonie as scoped User Administrators](b.png)
+![Evelina and Leonie as scoped User Administrators](imgs/b.png)
 *User Administrator role assignments page for AU-HR, showing Evelina Limberghina and Leonie Pool with Scope: "This resource" — confirming the role only applies within this Administrative Unit, not tenant-wide.*
 
-![Users manageable within AU-HR](c.png)
+![Users manageable within AU-HR](imgs/c.png)
 *Full list of users who are members of AU-HR — these are the only accounts Evelina and Leonie can administer under their scoped User Administrator role.*
