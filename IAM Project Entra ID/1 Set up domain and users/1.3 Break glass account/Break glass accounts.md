@@ -17,7 +17,7 @@ accounts — ideally using two different authentication methods — protects aga
 
 ## Configuration rules followed
 
- ###**NB: These rules are directly suggested by microsoft**###
+ ### **NB: These rules are directly suggested by microsoft**
  
 - **Cloud-only account, .onmicrosoft.com domain**: created on GrapeTech031.onmicrosoft.com instead of 
   the custom domain, so the account has no dependency on custom domain DNS/verification status.
