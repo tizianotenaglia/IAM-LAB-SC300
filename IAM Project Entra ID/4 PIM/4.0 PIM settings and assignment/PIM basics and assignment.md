@@ -36,7 +36,7 @@ role as available and must explicitly Activate it when they actually need it, ty
 through MFA, justification, and (if configured) approval - meaning the role is only "live" for the
 short window it's actually being used, drastically reducing the attack surface.
 
-![Add assignment - Setting, Eligible](imgs/eligible.png)
+![Add assignment - Setting, Eligible](imgs/elegible.png)
 *Add assignments, Setting tab with Assignment type = Eligible selected: only requires start/end
 dates (or Permanently eligible), no justification needed at assignment time - the role isn't active
 yet, just available to request later.*
