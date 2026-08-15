@@ -59,6 +59,5 @@ using it for invite redemption.
 ![Email OTP restricted to guest users group](imgs/guest.png)
 
 *Email OTP settings, Target changed from "All users" to the "guest users A" group - confirmation
-
 banner "Saving authentication methods - The policy was successfully saved" visible top right.*
 
