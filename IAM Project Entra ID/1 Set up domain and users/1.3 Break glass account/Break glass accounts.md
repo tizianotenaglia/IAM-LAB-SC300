@@ -17,6 +17,8 @@ accounts — ideally using two different authentication methods — protects aga
 
 ## Configuration rules followed
 
+ ###**NB: These rules are directly suggested by microsoft**###
+ 
 - **Cloud-only account, .onmicrosoft.com domain**: created on GrapeTech031.onmicrosoft.com instead of 
   the custom domain, so the account has no dependency on custom domain DNS/verification status.
 - **Global Administrator role, permanent (not eligible)**: assigned directly and permanently rather 
@@ -34,5 +36,3 @@ accounts — ideally using two different authentication methods — protects aga
 - **Secure credential storage**: Microsoft recommends storing credentials in a secure, fireproof, 
   on-site safe (or equivalent secure method) rather than in any single individual's possession, so 
   multiple authorized administrators can access them if needed.
-
-  **NB: These rules are directly suggested by microsoft**
