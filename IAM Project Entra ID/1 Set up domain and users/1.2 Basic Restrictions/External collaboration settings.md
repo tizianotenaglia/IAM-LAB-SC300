@@ -35,8 +35,6 @@ any external domain. In a production environment, this is often locked down to a
 trusted partner domains to prevent inviting guests from arbitrary/untrusted organizations — noting 
 this as a best practice to apply in a real deployment, even though it wasn't restricted for this lab.
 
-## Screenshot
-
 ![External collaboration settings configuration](imgs/external-settings.png)
 *External collaboration settings page in Entra admin center, showing the final configuration: 
 Limited guest access, invite restricted to admin roles only, self-service sign-up disabled, external 
