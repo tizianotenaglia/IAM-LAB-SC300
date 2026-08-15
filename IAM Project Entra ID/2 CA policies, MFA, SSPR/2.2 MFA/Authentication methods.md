@@ -18,27 +18,23 @@ only, since it's a weak factor meant for B2B guest redemption, not for internal 
 
 
 
-\- Passkey (FIDO2): phishing-resistant, passwordless hardware/platform security key.
+\**- Passkey (FIDO2)**: phishing-resistant, passwordless hardware/platform security key.
 
-\- Microsoft Authenticator: push notification / passwordless sign-in via the mobile app.
+\**- Microsoft Authenticator**: push notification / passwordless sign-in via the mobile app.
 
-\- SMS: one-time code by text message. Weak, vulnerable to SIM swap and phishing.
+\**- SMS**: one-time code by text message. Weak, vulnerable to SIM swap and phishing.
 
-\- Temporary Access Pass: time-limited passcode for onboarding or account recovery without a
+\**- Temporary Access Pass**: time-limited passcode for onboarding or account recovery without a password.
 
-&#x20; password.
+\**- Hardware OATH tokens**: physical OTP fob/token. 
 
-\- Hardware OATH tokens (Preview): physical OTP fob/token. 
+\-**Software OATH tokens**: TOTP codes from an authenticator app, used as a backup MFA method.
 
-\- Software OATH tokens: TOTP codes from an authenticator app, used as a backup MFA method.
+\**- Voice call**: automated call reading a verification code. Weak, phishing-prone.
 
-\- Voice call: automated call reading a verification code. Weak, phishing-prone.
+\**- Email OTP**: one-time code sent by email, mainly for guest B2B invite redemption. **Enabled, now scoped to the "guest users A" group only.**
 
-\- Email OTP: one-time code sent by email, mainly for guest B2B invite redemption. **Enabled, now**
-
-&#x20; **scoped to the "guest users A" group only.**
-
-\- Certificate-based authentication: sign-in via client certificate/smartcard.
+\**- Certificate-based authentication**: sign-in via client certificate/smartcard.
 
 
 
