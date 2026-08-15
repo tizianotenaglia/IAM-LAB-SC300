@@ -7,8 +7,6 @@ Microsoft's official guidance for emergency access account management.
 
 ## Why two accounts, not one
 
-## Screenshot
-
 ![Break glass account creation](imgs/breakglass.png)
 *First emergency access account created as a cloud-only Member on the .onmicrosoft.com domain, with Global Administrator role assigned at creation.*
 
