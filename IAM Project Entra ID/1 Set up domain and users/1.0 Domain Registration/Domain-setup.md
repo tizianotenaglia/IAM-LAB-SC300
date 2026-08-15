@@ -1,4 +1,4 @@
-# Module 1.0 – Custom domain registration & verification
+– Custom domain registration & verification
 
 ## What I did
 
