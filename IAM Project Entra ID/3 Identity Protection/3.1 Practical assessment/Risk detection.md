@@ -2,7 +2,7 @@
 
 ## What I did
 
-To generate real Identity Protection risk data instead of empty reports, I deliberately triggered a
+To generate real Identity Protection risk data, i deliberately triggered a
 risk detection by signing in through the Tor network, which routes traffic through anonymizing exit
 nodes that Microsoft's threat intelligence recognizes as anonymous/high-risk IP addresses.
 
