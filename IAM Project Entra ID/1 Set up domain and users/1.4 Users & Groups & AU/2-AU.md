@@ -34,8 +34,6 @@ group does not automatically extend the AU's management scope down to each membe
 account settings. That's exactly why, in AU-HR, I added Evelina and Leonie's *users* directly to the 
 AU rather than relying only on the SG-HR group.
 
-## Screenshots
-
 ![Administrative unit creation with scoped role assignment](imgs/a.png)
 *Creating AU-HR, with the User Administrator role assigned directly to Evelina Limberghina and Leonie Pool as part of the creation flow.*
 
