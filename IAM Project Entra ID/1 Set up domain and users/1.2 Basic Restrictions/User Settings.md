@@ -44,8 +44,6 @@ Users are not allowed to remain signed in after closing the browser. This reduce
 hijacking or unauthorized access on shared or unattended devices — every browser restart requires a 
 fresh sign-in rather than silently resuming a cached session.
 
-## Screenshot
-
 ![User settings configuration](imgs/User-settings.png)
 *User settings page in Entra admin center showing the final baseline configuration: app registration 
 disabled, non-admin tenant creation restricted, security group creation disabled, guest access set to 
