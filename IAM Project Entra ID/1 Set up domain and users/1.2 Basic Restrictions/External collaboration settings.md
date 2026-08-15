@@ -1,4 +1,4 @@
-## External collaboration settings (Guest access & invitations)
+# External collaboration settings (Guest access & invitations)
 
 Configured under Entra ID → External Identities → External collaboration settings — these settings 
 govern how B2B guest collaboration works across the whole tenant, separate from the per-guest 
