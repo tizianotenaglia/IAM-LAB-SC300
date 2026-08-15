@@ -42,18 +42,11 @@ only, since it's a weak factor meant for B2B guest redemption, not for internal 
 
 
 
-Changed the Email OTP method target from "All users" to the "guest users A" group, so internal
-
-members can no longer register or use Email OTP as an MFA factor - they rely on Microsoft
-
-Authenticator / Passkey instead - while external guests (like the B2B guest from Module 1.2) keep
-
-using it for invite redemption.
-
+Changed the Email OTP method target from "All users" to the "guest users A" group, so internal members can no longer register or use Email OTP as an MFA factor
+- they rely on Microsoft Authenticator / Passkey instead - while external guests (like the B2B guest from Module 1.2) keep using it for invite redemption.
 
 
 ![Authentication methods overview](imgs/authmeth.png)
-
 
 
 ![Email OTP restricted to guest users group](imgs/guest.png)
