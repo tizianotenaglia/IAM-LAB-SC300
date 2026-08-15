@@ -38,7 +38,7 @@ only, since it's a weak factor meant for B2B guest redemption, not for internal 
 
 
 
-### Restricting Email OTP to guests
+## Restricting Email OTP to guests
 
 
 
