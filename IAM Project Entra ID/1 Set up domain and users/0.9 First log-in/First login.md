@@ -1,4 +1,4 @@
-# Module 0.9 – First login into Microsoft Entra
+First login into Microsoft Entra
 
 ## What I did
 
@@ -25,14 +25,6 @@ Administrator** role for the GrapeTech tenant — the highest-privilege role in 
 full access to manage users, groups, roles, policies, licenses, and all other tenant settings. 
 This is the role used throughout the lab to configure Conditional Access, PIM, Identity Protection, 
 and the other SC-300 scenarios.
-
-Other details visible on this dashboard:
-- Tenant: GrapeTech, primary domain GrapeTech031.onmicrosoft.com
-- 1 user currently in the tenant, 0 groups/devices/apps yet
-- Microsoft Entra plan: **Entra ID Premium P2**
-- Identity Secure Score: N/A (no activity yet to score)
-- Microsoft Entra Connect: Disabled (hybrid sync not yet configured)
-- No high-risk user detections found
 
 ![Entra admin center - Global Administrator role](imgs/entra-dashboard-global-admin.png)
 *Entra Overview dashboard confirming Global Administrator role assignment for tizianotenaglia@grapetech031.onmicrosoft.com.*
