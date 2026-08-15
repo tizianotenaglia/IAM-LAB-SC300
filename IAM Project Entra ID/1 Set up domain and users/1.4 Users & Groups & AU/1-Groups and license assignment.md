@@ -1,4 +1,4 @@
-Groups, dynamic membership, and license assignment
+# Groups, dynamic membership, and license assignment
 
 ## What I did
 

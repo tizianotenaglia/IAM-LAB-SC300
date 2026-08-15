@@ -1,5 +1,5 @@
 
-Why the guest invite
+# Why the guest invite
 
 Beyond the internal Member users created via Bulk create, testing the B2B guest invitation flow was 
 important to cover a scenario: managing external identities. Real organizations 

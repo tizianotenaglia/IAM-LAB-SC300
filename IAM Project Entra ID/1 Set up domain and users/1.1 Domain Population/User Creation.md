@@ -1,4 +1,4 @@
-# Module 1.1 – Domain population via Bulk create
+# Domain population via Bulk create
 
 ## What I did
 

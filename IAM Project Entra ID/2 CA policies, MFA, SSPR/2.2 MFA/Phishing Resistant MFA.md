@@ -1,8 +1,8 @@
-Phishing-resistant MFA for CA02
+# Phishing-resistant MFA for CA02
 
 
 
-What I did
+## What I did
 
 
 
@@ -12,7 +12,7 @@ MFA, instead of the generic "Require multifactor authentication" grant.
 
 
 
-Why phishing-resistant MFA matters
+## Why phishing-resistant MFA matters
 
 
 

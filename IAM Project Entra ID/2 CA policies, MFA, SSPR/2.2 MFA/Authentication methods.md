@@ -1,8 +1,8 @@
-Authentication methods
+# Authentication methods
 
 
 
-What I did
+## What I did
 
 
 
@@ -14,7 +14,7 @@ only, since it's a weak factor meant for B2B guest redemption, not for internal 
 
 
 
-Methods overview
+## Methods overview
 
 
 
@@ -42,7 +42,7 @@ Methods overview
 
 
 
-Restricting Email OTP to guests
+### Restricting Email OTP to guests
 
 
 

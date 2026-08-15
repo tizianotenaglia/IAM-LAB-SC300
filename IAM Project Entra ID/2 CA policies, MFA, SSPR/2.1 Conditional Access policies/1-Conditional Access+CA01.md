@@ -1,4 +1,4 @@
-Conditional Access: IF / THEN policy logic
+# Conditional Access: IF / THEN policy logic
 
 
 - IF (Assignments) —  If every condition in this section is met during a sign-in attempt, the policy is triggered.
@@ -15,7 +15,7 @@ the THEN controls are never applied for that sign-in.
 ![Conditional Access policy structure: Assignments (IF) and Access controls (THEN)](imgs/CAcreation.png)
 *New Conditional Access policy screen, with the Assignments section outlined in red (the IF conditions: users, target resources, network, conditions) and the Access controls section outlined in blue (the THEN result: Grant and Session controls).*
 
-Creating CA01: Require MFA for all users
+## Creating CA01: Require MFA for all users
 
 Built the first real Conditional Access policy, CA01, applying the IF/THEN structure described 
 above:

@@ -1,4 +1,4 @@
-– Custom domain registration & verification
+# Custom domain registration & verification
 
 ## What I did
 
