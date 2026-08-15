@@ -56,11 +56,11 @@ using it for invite redemption.
 
 
 
-!\[Authentication methods overview](imgs/authmeth.png)
+![Authentication methods overview](imgs/authmeth.png)
 
 
 
-!\[Email OTP restricted to guest users group](imgs/guest.png)
+![Email OTP restricted to guest users group](imgs/guest.png)
 
 \*Email OTP settings, Target changed from "All users" to the "guest users A" group - confirmation
 
