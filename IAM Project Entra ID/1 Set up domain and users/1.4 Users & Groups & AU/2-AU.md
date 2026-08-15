@@ -1,8 +1,6 @@
 # Administrative Units (AU) for scoped delegation
 
-## What is an Administrative Unit
-
-An Administrative Unit (AU) is a container object in Microsoft Entra ID that can hold users, groups, 
+An Administrative Unit is a container object in Microsoft Entra ID that can hold users, groups, 
 or devices. Its purpose is to restrict the scope of an admin role to only the resources inside that 
 container, instead of the entire tenant. Without an AU, assigning a role like User Administrator gives 
 that person control over every user in the organization; with an AU, the same role can be scoped down 
@@ -15,7 +13,7 @@ parent organization, with its own local HR team. In that scenario, you wouldn't 
 staff to have administrative control over employees across the entire global tenant — only over the 
 people who work at their own branch.
 
-This is exactly what I set up:
+## What i did:
 
 - Created an Administrative Unit named **AU-HR**, containing the branch's users as direct members.
 - Assigned Evelina Limberghina and Leonie Pool the **User Administrator** role, scoped only to AU-HR 
