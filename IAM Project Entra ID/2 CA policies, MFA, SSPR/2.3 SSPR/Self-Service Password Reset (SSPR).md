@@ -10,7 +10,7 @@ SSPR is important because help to reduce the overhead workload on admins, reduce
 passwords for users.
 SSPR allow the user to reset their own passwords without having an admin involved.
 
-###**NB**: a microsoft 365 business premium license or Microsoft P1/P2 license is required to unlock the full potential (eg psw writeback)
+### **NB**: a microsoft 365 business premium license or Microsoft P1/P2 license is required to unlock the full potential (eg psw writeback)
 
 **1-Properties**
 
