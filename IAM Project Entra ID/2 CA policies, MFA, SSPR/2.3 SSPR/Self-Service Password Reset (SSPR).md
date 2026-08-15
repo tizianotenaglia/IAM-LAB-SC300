@@ -4,6 +4,14 @@
 
 ### Configured SSPR in Entra ID (Entra ID -> Password reset) across the 4 main tabs: Properties,Authentication methods, Registration, Notifications.
 
+## Why SSPR is important
+
+SSPR is important because help to reduce the overhead workload on admins, reduce the time that Helpdesk or User adminisistrator have to spend to reset 
+passwords for users.
+SSPR allow the user to reset their own passwords without having an admin involved.
+
+###**NB**: a microsoft 365 business premium license or Microsoft P1/P2 license is required to unlock the full potential (eg psw writeback)
+
 **1-Properties**
 
 SSPR enabled for All users, with Number of methods required to reset set to 2, for stronger
