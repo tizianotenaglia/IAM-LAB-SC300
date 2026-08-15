@@ -15,8 +15,8 @@ verification before a password can be reset.
 
 Legacy tab, now mostly superseded by the unified Authentication methods policy configured earlier
 (Module 3.1). Only "Number of methods required to reset" and the "Security questions" toggle remain
-here - Security questions left disabled (weak, and retiring March 2027). All other methods
-(Authenticator, Passkey, Email OTP scoped to guests, etc.) are inherited from the main auth methods
+here - Security questions left disabled( very weak method).
+All other methods (Authenticator, Passkey, Email OTP scoped to guests, etc.) are inherited from the main auth methods
 policy.
 
 ![SSPR Authentication methods tab](imgs/2.png)
