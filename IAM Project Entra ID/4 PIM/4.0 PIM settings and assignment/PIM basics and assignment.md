@@ -46,6 +46,21 @@ yet, just available to request later.*
 starts/ends dates and a mandatory justification just to create the assignment - shown here with the
 validation error since justification was left empty.*
 
+## Permanently eligible assignment for Evelina
+
+Set Evelina Limberghina's User Administrator assignment to Permanently eligible instead of giving
+it an expiration date.
+
+Why: as HR Manager, managing user accounts (creating/modifying users, resetting passwords) is an
+ongoing part of her job, not a temporary need with a foreseeable end date. Permanently eligible
+means her eligibility itself never expires, so she won't need to be re-assigned periodically - but
+she still has to Activate the role each time she actually uses it (MFA + justification), so there's
+still no standing access. This is different from "Permanently active", which would leave the role
+switched on at all times and defeat the purpose of PIM.
+
+![Evelina set to Permanently eligible](imgs/perma.png)
+*User Administrator | Assignments, Eligible assignments tab, Evelina Limberghina listed with Scope
+GrapeTech, Membership Direct.
 
 ## Confirmation
 
