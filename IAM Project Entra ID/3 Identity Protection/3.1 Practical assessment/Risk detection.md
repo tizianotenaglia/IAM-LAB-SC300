@@ -48,6 +48,16 @@ Went back to Risky users afterward: the donut chart now shows a small Low Risk s
 18 "No Risk" users (Ottavio Fottini), confirming the detection also fed into the aggregate score,
 even though the individual detection itself was flagged High.
 
-![Risky users donut updated](imgs/torta.png)
-*ID Protection - Risky users report, donut chart now showing a small Low Risk slice among the 19
-users, confirming the aggregate risk score picked up the detection.*
+## Risky user remediation actions
+
+4 actions available on Risky users:
+
+- **Confirm user(s) compromised**: escalates risk to High/Confirmed compromised, feeds Microsoft's detection model, does NOT restore access - stays blocked until remediated.
+- **Dismiss user(s) risk**: marks as false positive, clears risk, restores access immediately.
+- **Confirm user(s) safe**: confirms activity was legitimate, clears risk, restores access.
+- **Reset password**: forces password change; once done, risk auto-resolves to "Remediated".
+
+For the Tor test (deliberate admin test, not a real attack): used Dismiss user(s) risk on Ottavio
+Fottini to close the incident without an unnecessary password reset.
+
+![Risky users remediation actions available](imgs/torta.png)
