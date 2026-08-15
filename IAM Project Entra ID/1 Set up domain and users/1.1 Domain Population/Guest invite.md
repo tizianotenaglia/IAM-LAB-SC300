@@ -14,7 +14,6 @@ Conditional Access policies, access reviews, and entitlement management often ne
 for guests than for employees, and this test confirmed that the guest object model behaves exactly as 
 expected before building those policies on top of it.
 
-## Screenshots
 
 ![Invite external user - Review + invite](imgs/Guest.png)
 *Review + invite screen showing all the details entered for the invitation: email, display name, custom message, first/last name, job title, and company name.*
