@@ -40,6 +40,5 @@ the highest-value targets: a single phished admin session can lead to full tenan
 
 ![Authentication strength set on CA02](imgs/pesce.png)
 
-\*CA02 Grant panel, "Require authentication strength" selected with "Phishing-resistant MFA" chosen
-
-from the dropdown, replacing the generic "Require multifactor authentication" control.\*
+*CA02 Grant panel, "Require authentication strength" selected with "Phishing-resistant MFA" chosen
+from the dropdown, replacing the generic "Require multifactor authentication" control.*
