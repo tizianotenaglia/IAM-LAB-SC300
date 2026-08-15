@@ -2,8 +2,7 @@
 
 ## What I did
 
-### Configured SSPR in Entra ID (Entra ID -> Password reset) across the 4 main tabs: Properties,
-Authentication methods, Registration, Notifications.
+### Configured SSPR in Entra ID (Entra ID -> Password reset) across the 4 main tabs: Properties,Authentication methods, Registration, Notifications.
 
 **Properties**
 
