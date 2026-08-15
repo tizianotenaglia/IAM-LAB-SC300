@@ -1,8 +1,5 @@
 ## Baseline security settings – User & Guest configuration
 
-Before moving on to other topics, I locked down a set of baseline 
-settings that are commonly left too permissive by default in a new Entra tenant.
-
 ### User settings
 
 **Users can register applications → No**
