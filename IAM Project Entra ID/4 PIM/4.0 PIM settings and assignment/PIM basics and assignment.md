@@ -11,9 +11,7 @@ them permanently active on an account. It's organized around 4 tasks:
 - **Audit**: a full history log of every assignment and activation, used to review who had access to what and when, for compliance and incident investigation.
 
 ![PIM overview - Assign, Activate, Approve, Audit](imgs/basic.png)
-*PIM Quick start page for GrapeTech, showing the 4 core tasks: Assign (create role assignments),
-Activate (turn on eligible roles just-in-time), Approve (review activation requests), Audit (full
-history log).*
+
 
 ## Assigning Evelina Limberghina as User Administrator
 
