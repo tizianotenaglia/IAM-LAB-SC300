@@ -6,7 +6,7 @@ Ran the full PIM cycle from start to finish using Evelina Limberghina's Eligible
 Administrator: first login and MFA registration, activation request with justification, approval by
 Tiziano Tenaglia, and final confirmation via the PIM audit log.
 
-1. First login as Evelina
+### 1. First login as Evelina
 
 Signed in as EvelinaL@grapetech.online for the first time. Since she had no MFA method registered
 yet, Entra required her to set one up before continuing - prompted to install Microsoft
@@ -17,7 +17,7 @@ Authenticator on a mobile device.
 being allowed to continue.*
 
 
-2. MFA registration completed
+### 2. MFA registration completed
 
 Finished pairing Microsoft Authenticator - confirmation screen "Authenticator Added", now set as her
 default sign-in method. This unblocked her from completing any future MFA challenge, including the
@@ -27,7 +27,7 @@ one required to activate the PIM role.
 *Confirmation screen "Authenticator Added" - Microsoft Authenticator set as Evelina's default
 sign-in method.*
 
-3. Activation request
+### 3. Activation request
 
 Went to PIM > My roles > Eligible assignments > User Administrator > Activate. Set Duration to 2
 hours and entered the required Reason: "I need to create 2 new users that will start with us next
@@ -37,7 +37,7 @@ week." Submitted the request, which went into Pending approval status.
 *My roles > Eligible assignments > Activate - User Administrator panel: Duration 2 hours, Reason
 "I need to create 2 new users that will start with us next week."*
 
-4. Approval by Tiziano
+### 4. Approval by Tiziano
 
 Signed back in as tiziano.tenaglia > PIM > Approve requests > found Evelina's request under
 "Requests for role activations" (Role: User Administrator, Resource: GrapeTech, Reason: her
@@ -48,7 +48,7 @@ approve.
 *Approve requests > Microsoft Entra roles: Evelina's pending activation request for User
 Administrator, with Request details panel open and approval note.*
 
-5. Audit confirmation
+### 5. Audit confirmation
 
 Checked PIM > Microsoft Entra roles > My audit, filtered to the last day: shows the complete
 sequence with all 4 actions logged as Succeeded - eligible assignment creation, role setting
