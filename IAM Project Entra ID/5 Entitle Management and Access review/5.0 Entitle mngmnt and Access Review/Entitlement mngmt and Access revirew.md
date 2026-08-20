@@ -10,15 +10,12 @@ expires or gets reviewed on a schedule.
 ### Catalog vs Access package
 
 A Catalog is a container that groups related resources (groups, apps, SharePoint sites) so they can
-be managed together - think of it as a folder. An Access package is the actual request-able bundle
+be managed together. An Access package is the actual request-able bundle
 built from resources inside a catalog, with its own policy defining who can request it, who
 approves, and when it expires. The catalog organizes what resources exist; the access package is
 what an end user actually sees and requests.
 
 ![New catalog creation](imgs/neewcatalog.png)
-*New catalog panel: Name "GrapeTech IT resources", Enabled for users to request = Yes, Enabled for
-external users to request = No at creation (changed to Yes afterward).*
-
 
 ### Access package: "IT Access Package" and Lifecycle
 
@@ -33,5 +30,3 @@ doesn't respond (it could also been activated to remove users that do no complet
 
 
 ![Catalog confirmed with access package](imgs/review.png)
-*Identity Governance | Catalogs list: "GrapeTech IT resources" showing 1 Access package and 1
-Resource, Enabled = Yes, Enabled for external users = Yes.*
