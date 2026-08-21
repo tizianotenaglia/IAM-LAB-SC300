@@ -24,7 +24,7 @@ Started from the built-in "Onboard new hire employee" template and customized it
 - Final task order: Enable User Account -> Send Welcome email -> Generate TAP and Send Email ->
   Assign licenses to user -> Add user to groups, all Enabled.
 
-![Add group - SG-Sales](imgs/addoworkflow.png)
+![Add group - SG-Sales](imgs/addworkflow.png)
 
 ![Add group - SG-Sales](imgs/review.png)
 
@@ -46,12 +46,12 @@ before the 8th finally completed successfully. The errors encountered, in order:
    were fixed and the workflow was reprocessed, so it was most likely a downstream side effect of
    the earlier failures rather than a separate root cause.
 
-![Add group - SG-Sales](imgs/managermail.png)
+![Add group - SG-Sales](imgs/manageremail.png)
 
 After fixing the manager and manager-email issues and using Reprocess on each attempt, the run at
 8:48-8:49 PM finally completed successfully, all 5 tasks Succeeded.
 
-![Add group - SG-Sales](imgs/problemi.png)
+![Add group - SG-Sales](imgs/probelmi.png)
 
 ### How to avoid this next time
 
