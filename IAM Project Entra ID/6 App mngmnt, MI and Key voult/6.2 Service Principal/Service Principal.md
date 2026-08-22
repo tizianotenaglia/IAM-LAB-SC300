@@ -51,11 +51,11 @@ Application ID stayed identical on both - proof that Entra ID actually stores tw
 for this one app, linked to each other only through that one shared identifier.
 
 
-![App Registration Overview - Object ID](imgs/sp-appreg-overview.png)
+![App Registration Overview - Object ID](imgs/appreg.png)
 *GrapeTech test APP, App registrations > Overview: Application (client) ID
 ccc9bba9-f8f3-40aa-89f9-d42a3d1974ae, Object ID 179d9510-44a9-4c51-b315-56222a67ab31.*
 
-![Enterprise Application Overview - Object ID](imgs/sp-enterpriseapp-overview.png)
+![Enterprise Application Overview - Object ID](imgs/enterpriseapp.png)
 *GrapeTech test APP, Enterprise applications > Overview/Properties: Application ID
 ccc9bba9-f8f3-40aa-89f9-d42a3d1974ae (same as above), Object ID 6a685233-c067-4ca8-9721-...
 (different from the App Registration's Object ID).*
