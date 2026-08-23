@@ -19,9 +19,7 @@ other Azure resource. The data plane is a separate layer entirely - it's about w
 actual contents inside the vault: reading a secret, listing keys, adding a certificate. Having
 permission on the control plane (being able to create or delete the vault) does not automatically
 grant permission on the data plane (being able to read what's inside it) - and this separation is
-exactly what caused the "unauthorized" error I ran into below.
-
-![KV - error](imgs/noperm.png)
+exactly what caused the "unauthorized" error I ran into (screenshoot aviable in the "what i did" section below).
 
 ## Data plane access models: Access Policies vs Azure RBAC
 
@@ -93,6 +91,8 @@ separation from above playing out directly: creating the vault (control plane) d
 rights over its contents (data plane). I fixed this by going to Access control (IAM) and assigning
 myself the Key Vault Secrets Officer role, waited a couple of minutes for the role assignment to
 propagate, and was then able to successfully create the secret ("Fun-Test-Secret").
+
+![KV - error](imgs/noperm.png)
 
 ![Creating the test secret](imgs/createsec.png)
 *Create a secret form: Name "Fun-Test-Secret", Secret value entered (masked), Enabled = Yes.*
