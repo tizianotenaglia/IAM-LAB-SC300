@@ -104,5 +104,4 @@ read - nothing more.
 
 
 ![Key Vault Secrets User assigned to the Managed Identity](imgs/user.png)
-*Add role assignment, Review + assign: Role Key Vault Secrets User, Scope KV-Grapetech-test,
-Member GrapeTech-fun-test (Function App), Object ID 439da8dd-5c09-43d4-8626-f70c75101e26.*
+*Add role assignment, Review + assign: Role Key Vault Secrets User, Scope KV-Grapetech-test.*
