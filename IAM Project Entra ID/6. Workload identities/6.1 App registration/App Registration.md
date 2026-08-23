@@ -54,6 +54,7 @@ gave me the two identifiers I'd need for everything else: the Application (clien
 *GrapeTech test APP Overview: Application (client) ID, Object ID, Directory (tenant) ID, Client
 credentials, Redirect URIs, Supported account types "My organization only", State Activated.*
 
+<a name="tripped-twice"></a>
 Next came the client secret, and this is where I actually tripped up twice, which ended up being a
 good lesson in itself. The first time, I created a new client secret under Certificates & secrets
 and then navigated away from the page before copying the Value - and it turns out Entra only shows
