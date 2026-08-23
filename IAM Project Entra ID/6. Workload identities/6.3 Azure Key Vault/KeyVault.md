@@ -1,5 +1,7 @@
 # App Management: Azure Key Vault
 
+[Skip to "What I did"](#what-i-did)
+
 ## What Azure Key Vault is
 
 Azure Key Vault is a centralized, encrypted storage service for the three types of sensitive
