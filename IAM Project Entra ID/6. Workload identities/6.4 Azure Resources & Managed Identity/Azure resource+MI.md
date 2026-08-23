@@ -15,7 +15,7 @@ A Managed Identity is an identity for an Azure resource that Entra ID creates an
 automatically on your behalf. The whole point of it is that it eliminates the need to store any
 credentials at all - no client secret, no certificate, nothing sitting in a config file or in code
 that could be copied, leaked, or forgotten about (exactly the kind of problem I ran into earlier
-with the App Registration's client secret). Entra ID handles the authentication behind the scenes,
+with the App Registration's client secret)[check the mistake@](App%20registration.md#tripped-twice). Entra ID handles the authentication behind the scenes,
 so the resource can just ask for a token and use it, with nothing for me as the admin to create,
 rotate, or protect.
 
