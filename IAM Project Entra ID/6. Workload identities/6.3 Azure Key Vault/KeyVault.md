@@ -41,12 +41,6 @@ option of the two specifically because there's no credential to create, store, r
 the first place - Entra handles that behind the scenes - which is exactly why it's the pairing this
 project ended up using for the Function App.
 
-![Self-assigning Key Vault Secrets Officer](imgs/officer.png)
-*Add role assignment, Members tab: Selected role Key Vault Secrets Officer, Assign access to
-"User, group, or service principal", Member Tiziano Tenaglia (Type: User) - the fix for the
-unauthorized error above, granting myself just enough data-plane access to manage secrets.*
-
-
 ## Soft delete and Purge protection
 
 Soft delete means that deleting the vault, or an individual object inside it, doesn't make it
@@ -93,6 +87,9 @@ myself the Key Vault Secrets Officer role, waited a couple of minutes for the ro
 propagate, and was then able to successfully create the secret ("Fun-Test-Secret").
 
 ![KV - error](imgs/noperm.png)
+
+![Self-assigning Key Vault Secrets Officer](imgs/officer.png)
+*Add role assignment, fix for the unauthorized error above, granting myself just enough data-plane access to manage secrets.*
 
 ![Creating the test secret](imgs/createsec.png)
 *Create a secret form: Name "Fun-Test-Secret", Secret value entered (masked), Enabled = Yes.*
