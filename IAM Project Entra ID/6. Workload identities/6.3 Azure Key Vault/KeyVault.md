@@ -72,10 +72,13 @@ teardown at the end of the project.*
 
 -***Key Vault Administrator***: full data-plane control over everything in the vault - secrets, keys,
   certificates, and access management itself.
+
 -***Key Vault Secrets Officer***: full management of secrets specifically (create, read, update, delete)
   but no access to keys or certificates.
+
 -***Key Vault Secrets User***: read-only access to secrets (get/list only) - the least-privilege role for
   something that just needs to consume a secret, nothing more.
+
 -***Contributor***: a control-plane role, not a Key Vault-specific one - it can manage the vault resource
   itself, but under the RBAC model it grants no data-plane access to what's actually inside it,
   which is the same control/data plane separation from earlier showing up again here.
