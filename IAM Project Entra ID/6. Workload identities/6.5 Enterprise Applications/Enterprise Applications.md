@@ -58,7 +58,7 @@ assignment succeeded - 3 users & 0 groups have been assigned access."
 *GrapeTech test APP | Properties: Enabled for users to sign-in = Yes, Assignment required? = Yes,
 Visible to users? = Yes, alongside the app's Application ID and Object ID.*
 
-![App assignment succeeded](imgs/assignment.png)
+![App assignment succeeded](imgs/ass.png)
 *GrapeTech test APP | Users and groups: Diego Spagone, Kia Billis, and Ottavio Fottini listed as
 Users with Role assigned = Default Access; notification banner "Application assignment succeeded -
 3 users & 0 groups have been assigned access."*
